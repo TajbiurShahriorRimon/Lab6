@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<booklist>
+    <book>
+        <name>Rahman</name>
+        <publisher>1234</publisher>
+        <isbn>Male</isbn>
+        <price>arif@gmail.com</price>
+        <image>resources/book_default.png</image>
+        <delete>resources/drop.png</delete>
+    </book>
+    <book>
+        <name>Rahman</name>
+        <publisher>1234</publisher>
+        <isbn>Male</isbn>
+        <price>arif@gmail.com</price>
+        <image>resources/book_default.png</image>
+        <delete>resources/drop.png</delete>
+    </book>
+</booklist>
