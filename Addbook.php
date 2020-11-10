@@ -1,5 +1,8 @@
 <?php
-    echo "add";
+/*if(!isset($_COOKIE['user_Name'])){
+    header("Location: Login.php");
+}*/
+echo "Books";
 ?>
 <html>
 <head>
@@ -11,7 +14,7 @@
         <td>Book Name:</td>
     </tr>
     <tr>
-        <td><textarea rows="3" cols="5" </td>
+        <td><textarea rows="3" cols="5" ></textarea></td>
     </tr>
 </table>
 </body>

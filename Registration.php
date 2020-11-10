@@ -117,7 +117,8 @@ if(isset($_POST['register'])) {
             $xmldoc->loadXML($xml);
             $root = $xmldoc->firstChild;
 
-
+            $newElement = $xmldoc->createElement('user');
+//fs-----------
             $newElement = $xmldoc->createElement('fullname');
 
 
@@ -163,6 +164,7 @@ if(isset($_POST['register'])) {
             $ageText = $xmldoc->createTextNode($city);
             $ageElement->appendChild($ageText);
 
+            $newElement = $xmldoc->createElement('user');
 
             $xmldoc->save('admins.xml');
         }
