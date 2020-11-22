@@ -1,9 +1,12 @@
 <?php
-if(!isset($_COOKIE['user_Name'])){
+/*if(!isset($_COOKIE['user_Name'])){
     header("Location: Login.php");
-}
+}*/
 echo "hello user: ";
 if(isset($_POST['login'])) {
+    if($fileCheck = file_get_contents("books.xml")){
+        echo "no data";
+    }
     $xmlLoad = simplexml_load_file("sample.xml");
 
     $name = $_POST['user_Name'];
@@ -19,6 +22,16 @@ if(isset($_POST['login'])) {
 ?>
 <html>
 <head>
+    <style>
+        body{
+            background-image: url('resources/img07.jpg');
+            height: 100%;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
 
 </head>
 <body>

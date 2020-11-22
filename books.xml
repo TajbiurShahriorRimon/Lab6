@@ -16,4 +16,8 @@
         <image>resources/book_default.png</image>
         <delete>resources/drop.png</delete>
     </book>
-</booklist>
+    <book>
+        <name>Rim</name>
+        <publisher>ASD</publisher>
+    </book>
+<book><name>sdf</name><publisher>d</publisher></book><book><name>sdf</name><publisher>d</publisher></book><book><name>Rim</name><publisher>d</publisher></book><book><name>Rim</name><publisher>ASD</publisher><isbn>21</isbn><price>23</price><image>resources/book_default.png</image><delete>resources/drop.png</delete></book><book><name>sdf</name><publisher>ASD</publisher></book><book><name>sdf</name><publisher>d</publisher></book><book><name>Rim</name><publisher>ASD</publisher><isbn>21</isbn><price>23</price><image>resources/book_default.png</image><delete>resources/drop.png</delete></book></booklist>
